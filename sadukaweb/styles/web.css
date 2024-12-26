@@ -1,0 +1,117 @@
+ /*             *     CSS --> CASCATE STYLE SHEET
+
+
+ ! WE CAN ADD STYLE TO WE PAGES
+ ! HOW TO DISPLAY
+ ! WE CAN DESCRIBE MORE HTML TAGS USING CSS
+
+       H1 <-- RED COLOR, FONT article
+       P  <-- BACKGROUND YELLOW , FONT IS ALGERIEN, FONT SIZE IS 15PX 
+       
+       P{ COLOR: RED;
+       |  FONT-SIZE:     15PX;
+       |   |              |
+       |   property       VALUE
+       |             |
+       |   STAEMENT(DECLARERATION)
+      SELCTOR(TO WHOM)     
+      }
+      
+
+      
+      ---THERE ARE 3 WAYS TO INSERT CSS TO WEB PAGE
+              -INTERNAL 
+              -EXTERNAL 
+              -INLINE 
+      
+      */
+
+
+      /* INTERNAL CSS --> WE CAN ADD CSS TO SAME HTML PAGE */
+         /*          EX:              <style>
+                                        h1{
+                                                color: red;
+                                                font-size: 30px;
+                                        }
+                                        p{
+                                                background-color: yellow;
+                                                font-family: Algerian;
+                                                font-size: 15px;
+                                                text-align: center;
+                                        }       
+                                </style> */
+
+
+
+                                
+        /* EXTERNAL CSS --> WE CAN ADD CSS TO ANOTHER FILE */
+        /*      EX:      <link rel="stylesheet" href="styles/web.css">      */
+
+
+
+        /* INLINE CSS --> WE CAN ADD CSS TO HTML TAGS */
+        /*     EX:          <h1 style="color: red; font-size: 30px;">HELLO WORLD</h1> */
+
+/* 
+
+    *  PRIORITY OEDER
+        1. INLINE
+        2. INTERNAL
+        3. EXTERNAL     */
+
+
+/* 
+       * MORE CSS PROPERTIES
+      
+        1.COLOR --> RED, GREEN, BLUE, YELLOW
+        2.FONT-SIZE --> 15PX, 20PX, 25PX
+        3.FONT-FAMILY --> ALGERIAN, ARIAL, TIMES NEW ROMAN, VERDANA
+        4.TEXT-ALIGN --> LEFT, RIGHT, CENTER, JUSTIFY      
+        5.TEXT-DECORATION --> UNDERLINE, OVERLINE, LINE-THROUGH
+        6.TEXT-WEIGHT --> BOLD, NORMAL, LIGHTER
+        7.FONT-STYLE --> ITALIC, OBLIQUE, NORMAL
+        8.BACKGROUND-COLOR --> RED, GREEN, BLUE, YELLOW
+        9.BACKGROUND-IMAGE --> URL('IMAGE PATH')
+        10.BORDER --> 1PX SOLID RED\GREEN\BLUE\YELLOW
+        11.BORDER-RADIUS --> 10PX, 20PX, 30PX
+        12.BORDER-COLOR --> RED, GREEN, BLUE, YELLOW
+        13.MARGIN --> 10PX, 20PX, 30PX
+        14.PADDING --> 10PX, 20PX, 30PX
+        15.BACKGROUND-SIZE --> COVER, CONTAIN
+        16.BACKGROUND-POSITION --> CENTER, LEFT, RIGHT, TOP, BOTTOM
+
+     *HTML AND CSS COLORS
+     
+        1. HEXADECIMAL --> #FF0000, #00FF00, #0000FF
+        2. RGB --> RGB(255, 0, 0), RGB(0, 255, 0), RGB(0, 0, 255)
+        3. RGBA --> RGBA(255, 0, 0, 0.5), RGBA(0, 255, 0, 0.5), RGBA(0, 0, 255, 0.5)
+        4. HSL --> HSL(0, 100%, 50%), HSL(120, 100%, 50%), HSL(240, 100%, 50%)
+        5. HSLA --> HSLA(0, 100%, 50%, 0.5), HSLA(120, 100%, 50%, 0.5), HSLA(240, 100%, 50%, 0.5)
+        6. NAMED --> RED, GREEN, BLUE, YELLOW
+        7. TRANSPARENT --> TRANSPARENT
+        8. CURRENTCOLOR --> CURRENTCOLOR
+        9. INVERT --> INVERT
+        10. INITIAL --> INITIAL
+        11. INHERIT --> INHERIT
+        12. UNSET --> UNSET
+        13. REVERT --> REVERT
+        
+
+      * CSS SELECTORS
+        1. ELEMENT SELECTOR --> P, H1, H2, H3
+        2. ID SELECTOR --> #ID
+        3. CLASS SELECTOR --> .CLASS
+        4. UNIVERSAL SELECTOR --> *
+        5. GROUPING SELECTOR --> H1, H2, H3
+        6. DESCENDANT SELECTOR --> DIV P
+        7. CHILD SELECTOR --> DIV > P
+ 
+       
+       
+       
+       
+       
+       
+        */
+
+        
